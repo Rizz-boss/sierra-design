@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="img/admin_logo.jfif" alt="">
+            <ul>
+                <a href="admin.html"><li>Dashboard</li></a>
+                <a href="createproduct.html"><li>Create Product</li></a>
+                <a href="createuser.html"><li>Create User</li></a>
+                <a href="productPage.html"><li>Product Page</li></a>
+                <a href="#"><li>User Page</li></a>
+            </ul>
+        </nav>
+
+        <div class="body">
+            <h1>Edit Product</h1>
+        
+            
+                <form id="form-one">
+                    <label for="category">Product Category</label><br>
+                    <input type="text" id="category" name="category"><br><br>
+            
+                    <label for="description">Product Description</label><br>
+                    <input type="text" id="description" name="description"><br><br>
+            
+                    <label for="image">Choose An Image</label><br>
+                    <div class="choose-image">
+                        <input type="file" id="image" name="image"><br>
+                    </div>
+            
+                    <label for="name">Product Name</label><br>
+                    <input type="text" id="name" name="name" style="border: 1px solid black;"><br><br>
+            
+                    <label for="price">Product Price</label><br>
+                    <input type="number" id="price" name="price" style="border: 1px solid black;"><br><br>
+            
+                    <label for="quantity">Product Quantity</label><br>
+                    <input type="number" id="quantity" name="quantity" style="border: 1px solid black;"><br>
+            
+                    <button class="btn" type="submit">Create Product</button><br>
+                </form>
+            </div>
+            
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="editProduct.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>

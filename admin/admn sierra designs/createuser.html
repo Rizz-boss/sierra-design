@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="img/admin_logo.jfif" alt="">
+            <ul>
+                <a href="admin.html"><li>Dashboard</li></a>
+                <a href="createproduct.html"><li>Create Product</li></a>
+                <a href="createuser.html"><li>Create User</li></a>
+                <a href="productPage.html"><li>Product Page</li></a>
+                <a href="userpage.html"><li>User Page</li></a>
+            </ul>
+        </nav>
+
+        <div class="body">
+            <h1>Create User</h1>
+            <form id="userForm">
+                <label for="name">Full name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email"><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+
+                <label for="Phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                
+                <button class="btn" type="submit">Create User</button><br>
+            </form>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="user.js"></script>
+        
+        
+</body>
+</html>
